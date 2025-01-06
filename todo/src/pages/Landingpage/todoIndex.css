@@ -1,0 +1,195 @@
+body {
+  background-color: rgb(18, 18, 18);
+}
+
+#logo2 {
+  height: 4%;
+  width: 4%;
+  margin: 5px;
+}
+#logo {
+  height: 7%;
+  width: 7%;
+  margin: 5px;
+}
+#logoTittle2 {
+  color: rgb(250, 121, 92);
+  font-weight: bolder;
+  margin-top: 0.5%;
+}
+
+#logoTittle {
+  color: rgb(250, 121, 92);
+  font-weight: bolder;
+  font-size: 1.8em;
+}
+#Login {
+  font-weight: bolder;
+}
+#signup {
+  color: white;
+  background-color: rgb(250, 121, 92);
+  /* padding: 5%; */
+  /* width: 500%; */
+  font-weight: bolder;
+}
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+@keyframes slideInFromRight {
+  0% {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+.home1 {
+  width: 40%;
+  height: 100vh;
+  animation: slideInFromLeft 3s ease-out forwards;
+  opacity: 0;
+}
+.home2 {
+  width: 60%;
+  height: 100vh;
+  animation: slideInFromRight 3s ease-out forwards;
+  opacity: 0;
+}
+#btn2 {
+  color: white;
+  background-color: rgb(250, 121, 92);
+  /* padding: 5%; */
+  /* width: 500%; */
+  font-weight: bolder;
+}
+#des {
+  color: gray;
+}
+#img1 {
+  width: 100%;
+  padding: 1%;
+  border-radius: 0.5cm;
+}
+#home {
+  margin-top: 5%;
+}
+#Login1 {
+  /* border: 2px solid black; */
+  height: 100vh;
+  width: 40%;
+}
+#Login2 {
+  /* border: 2px solid black; */
+  height: 100vh;
+  width: 60%;
+  animation: slideInFromRight 3s ease-out forwards;
+  opacity: 0;
+}
+#Loginbtn {
+  background-color: rgb(250, 121, 92);
+  color: white;
+  font-weight: bolder;
+}
+#Loginimg {
+  margin-top: 5%;
+  padding: 5%;
+  width: 100%;
+  border-radius: 0.5cm;
+}
+#Signup1 {
+  margin-top: 10%;
+  height: 100vh;
+  width: 40%;
+  opacity: 0;
+  animation: slideInFromLeft 3s ease-out forwards;
+}
+/* .Sidebar {
+  border: 3px solid black;
+  width: 15%;
+  height: 100vh;
+  padding: 1%;
+}
+.but {
+  text-align: start;
+  font-weight: bold;
+} */
+
+#offcanvasScrolling {
+  width: 15%;
+  height: 100%;
+  padding: 1%;
+}
+#sidebody {
+  width: 85%;
+  height: 100%;
+  background-color: rgb(40, 40, 40);
+}
+#sidebar {
+  width: 15%;
+  height: 100%;
+  padding: 1%;
+}
+#sidebarbody {
+  background-color: grey;
+}
+#closebtn {
+  /* margin-top: 2%; */
+}
+#innerbody {
+  /* border: 2px solid black; */
+  width: 100%;
+  margin-left: 11.2%;
+  height: 100%;
+  background-color: rgb(40, 40, 40);
+  padding: 0px;
+  color: white;
+  height: 100%;
+}
+
+.popup-inner:hover {
+  border: 1px solid white;
+}
+.popup-inner {
+  width: 75%;
+  border: 1px solid grey;
+  padding: 1%;
+  background-color: rgb(40, 40, 40);
+  border-radius: 15px;
+}
+#taskid {
+  border: 0px;
+}
+#taskname::placeholder {
+  color: grey;
+}
+#taskid::placeholder {
+  color: grey;
+}
+#taskbtn {
+  background-color: rgb(250, 121, 92);
+  color: white;
+}
+#taskcancelbtn {
+  background-color: grey;
+  color: white;
+}
+#description::placeholder {
+  color: grey;
+}
+.innerbody {
+  /* border: 2px solid white; */
+  height: 100%;
+  width: 100%;
+  margin-top: 8%;
+}
